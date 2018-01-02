@@ -1,0 +1,1249 @@
+{
+  "contractName": "IDMS",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "rollNo",
+          "type": "uint256"
+        },
+        {
+          "name": "nm",
+          "type": "string"
+        },
+        {
+          "name": "gp",
+          "type": "string"
+        }
+      ],
+      "name": "addStudent",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "rollNo",
+          "type": "uint256"
+        }
+      ],
+      "name": "getStudent",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b6105178061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063473e991414610051578063642f9163146100fa575b600080fd5b341561005c57600080fd5b6100f8600480803590602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f01602080910402602001604051908101604052809392919081815260200183838082843782019150505050505091905050610202565b005b341561010557600080fd5b61011b6004808035906020019091905050610289565b604051808060200180602001838103835285818151815260200191508051906020019080838360005b8381101561015f578082015181840152602081019050610144565b50505050905090810190601f16801561018c5780820380516001836020036101000a031916815260200191505b50838103825284818151815260200191508051906020019080838360005b838110156101c55780820151818401526020810190506101aa565b50505050905090810190601f1680156101f25780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b600080600085815260200190815260200160002090508060020160009054906101000a900460ff161561023457600080fd5b8281600001908051906020019061024c929190610432565b5081816001019080519060200190610265929190610432565b5060018160020160006101000a81548160ff02191690831515021790555050505050565b6102916104b2565b6102996104b2565b60008084815260200190815260200160002060020160009054906101000a900460ff1615156102c757600080fd5b600080848152602001908152602001600020600001600080858152602001908152602001600020600101818054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103865780601f1061035b57610100808354040283529160200191610386565b820191906000526020600020905b81548152906001019060200180831161036957829003601f168201915b50505050509150808054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104225780601f106103f757610100808354040283529160200191610422565b820191906000526020600020905b81548152906001019060200180831161040557829003601f168201915b5050505050905091509150915091565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061047357805160ff19168380011785556104a1565b828001600101855582156104a1579182015b828111156104a0578251825591602001919060010190610485565b5b5090506104ae91906104c6565b5090565b602060405190810160405280600081525090565b6104e891905b808211156104e45760008160009055506001016104cc565b5090565b905600a165627a7a723058201561275d58c5e8dba5934da6ea6c19468e57baa21e9255b07c210f22d833a0170029",
+  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063473e991414610051578063642f9163146100fa575b600080fd5b341561005c57600080fd5b6100f8600480803590602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f01602080910402602001604051908101604052809392919081815260200183838082843782019150505050505091905050610202565b005b341561010557600080fd5b61011b6004808035906020019091905050610289565b604051808060200180602001838103835285818151815260200191508051906020019080838360005b8381101561015f578082015181840152602081019050610144565b50505050905090810190601f16801561018c5780820380516001836020036101000a031916815260200191505b50838103825284818151815260200191508051906020019080838360005b838110156101c55780820151818401526020810190506101aa565b50505050905090810190601f1680156101f25780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b600080600085815260200190815260200160002090508060020160009054906101000a900460ff161561023457600080fd5b8281600001908051906020019061024c929190610432565b5081816001019080519060200190610265929190610432565b5060018160020160006101000a81548160ff02191690831515021790555050505050565b6102916104b2565b6102996104b2565b60008084815260200190815260200160002060020160009054906101000a900460ff1615156102c757600080fd5b600080848152602001908152602001600020600001600080858152602001908152602001600020600101818054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103865780601f1061035b57610100808354040283529160200191610386565b820191906000526020600020905b81548152906001019060200180831161036957829003601f168201915b50505050509150808054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104225780601f106103f757610100808354040283529160200191610422565b820191906000526020600020905b81548152906001019060200180831161040557829003601f168201915b5050505050905091509150915091565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061047357805160ff19168380011785556104a1565b828001600101855582156104a1579182015b828111156104a0578251825591602001919060010190610485565b5b5090506104ae91906104c6565b5090565b602060405190810160405280600081525090565b6104e891905b808211156104e45760008160009055506001016104cc565b5090565b905600a165627a7a723058201561275d58c5e8dba5934da6ea6c19468e57baa21e9255b07c210f22d833a0170029",
+  "sourceMap": "25:916:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:916:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;718:221;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;454:215;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;718:221:0;784:7;794:15;:23;810:6;794:23;;;;;;;;;;;784:33;;824:3;:17;;;;;;;;;;;;821:115;;;848:8;;;821:115;883:2;872:3;:8;;:13;;;;;;;;;;;;:::i;:::-;;900:2;890:3;:7;;:12;;;;;;;;;;;;:::i;:::-;;927:4;907:3;:17;;;:24;;;;;;;;;;;;;;;;;;718:221;;;;:::o;454:215::-;503:6;;:::i;:::-;511;;:::i;:::-;527:15;:23;543:6;527:23;;;;;;;;;;;:37;;;;;;;;;;;;526:38;523:143;;;571:8;;;523:143;603:15;:23;619:6;603:23;;;;;;;;;;;:28;;633:15;:23;649:6;633:23;;;;;;;;;;;:27;;595:66;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;454:215;;;:::o;25:916::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.17;\ncontract IDMS {\n\t\n\t// Student Structure\n\tstruct Student {\n\t\tstring name;\n\t\tstring GPA;\n\t\tbool isInitialized;\n\t}\n\n\t// To map a particular student's roll number to struct\n\tmapping(uint => Student) StudentIdentity;\n\n\t// College Structure\n\tstruct College {\n\t\tstring name;\n\t}\n\n\t// To map a particular college's ID(given randomly) to struct\n\tmapping(uint => College) CollegeIdentity;\n\n\t// Function to Get Student from StudentIdentity\n\tfunction getStudent(uint rollNo) public returns (string, string) {\n\t\tif(!StudentIdentity[rollNo].isInitialized) {\n\t\t\trevert();\n\t\t} else {\n\t\t\treturn (StudentIdentity[rollNo].name, StudentIdentity[rollNo].GPA);\n\t\t}\n\t}\n\t// Function to Add Student to StudentIdentity\n\tfunction addStudent(uint rollNo, string nm, string gp) public {\n\t\tvar std = StudentIdentity[rollNo];\n\t\tif(std.isInitialized) {\n\t\t\trevert();\n\t\t} else {\n\t\t\tstd.name = nm;\n\t\t\tstd.GPA = gp;\n\t\t\tstd.isInitialized = true;\n\t\t}\n\t}\n}",
+  "sourcePath": "/Users/dhruminkhatri/Documents/Node_js/blockchain/IDMS/contracts/IDMS.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/dhruminkhatri/Documents/Node_js/blockchain/IDMS/contracts/IDMS.sol",
+      "exportedSymbols": {
+        "IDMS": [
+          92
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            92
+          ],
+          "name": "IDMS",
+          "scope": 93
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "IDMS.Student",
+              "name": "Student",
+              "scope": 92,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "name",
+                  "scope": 8,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string storage pointer",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string storage pointer"
+                    },
+                    "id": 2,
+                    "name": "ElementaryTypeName",
+                    "src": "85:6:0"
+                  }
+                ],
+                "id": 3,
+                "name": "VariableDeclaration",
+                "src": "85:11:0"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "GPA",
+                  "scope": 8,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string storage pointer",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string storage pointer"
+                    },
+                    "id": 4,
+                    "name": "ElementaryTypeName",
+                    "src": "100:6:0"
+                  }
+                ],
+                "id": 5,
+                "name": "VariableDeclaration",
+                "src": "100:10:0"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "isInitialized",
+                  "scope": 8,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "bool",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "bool",
+                      "type": "bool"
+                    },
+                    "id": 6,
+                    "name": "ElementaryTypeName",
+                    "src": "114:4:0"
+                  }
+                ],
+                "id": 7,
+                "name": "VariableDeclaration",
+                "src": "114:18:0"
+              }
+            ],
+            "id": 8,
+            "name": "StructDefinition",
+            "src": "66:70:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "StudentIdentity",
+              "scope": 92,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(uint256 => struct IDMS.Student storage ref)",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(uint256 => struct IDMS.Student storage ref)"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint",
+                      "type": "uint256"
+                    },
+                    "id": 9,
+                    "name": "ElementaryTypeName",
+                    "src": "203:4:0"
+                  },
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "Student",
+                      "referencedDeclaration": 8,
+                      "type": "struct IDMS.Student storage pointer"
+                    },
+                    "id": 10,
+                    "name": "UserDefinedTypeName",
+                    "src": "211:7:0"
+                  }
+                ],
+                "id": 11,
+                "name": "Mapping",
+                "src": "195:24:0"
+              }
+            ],
+            "id": 12,
+            "name": "VariableDeclaration",
+            "src": "195:40:0"
+          },
+          {
+            "attributes": {
+              "canonicalName": "IDMS.College",
+              "name": "College",
+              "scope": 92,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "name",
+                  "scope": 15,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "string storage pointer",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string storage pointer"
+                    },
+                    "id": 13,
+                    "name": "ElementaryTypeName",
+                    "src": "280:6:0"
+                  }
+                ],
+                "id": 14,
+                "name": "VariableDeclaration",
+                "src": "280:11:0"
+              }
+            ],
+            "id": 15,
+            "name": "StructDefinition",
+            "src": "261:34:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "CollegeIdentity",
+              "scope": 92,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(uint256 => struct IDMS.College storage ref)",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(uint256 => struct IDMS.College storage ref)"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint",
+                      "type": "uint256"
+                    },
+                    "id": 16,
+                    "name": "ElementaryTypeName",
+                    "src": "369:4:0"
+                  },
+                  {
+                    "attributes": {
+                      "contractScope": null,
+                      "name": "College",
+                      "referencedDeclaration": 15,
+                      "type": "struct IDMS.College storage pointer"
+                    },
+                    "id": 17,
+                    "name": "UserDefinedTypeName",
+                    "src": "377:7:0"
+                  }
+                ],
+                "id": 18,
+                "name": "Mapping",
+                "src": "361:24:0"
+              }
+            ],
+            "id": 19,
+            "name": "VariableDeclaration",
+            "src": "361:40:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "getStudent",
+              "payable": false,
+              "scope": 92,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "rollNo",
+                      "scope": 50,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 20,
+                        "name": "ElementaryTypeName",
+                        "src": "474:4:0"
+                      }
+                    ],
+                    "id": 21,
+                    "name": "VariableDeclaration",
+                    "src": "474:11:0"
+                  }
+                ],
+                "id": 22,
+                "name": "ParameterList",
+                "src": "473:13:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 50,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 23,
+                        "name": "ElementaryTypeName",
+                        "src": "503:6:0"
+                      }
+                    ],
+                    "id": 24,
+                    "name": "VariableDeclaration",
+                    "src": "503:6:0"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 50,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 25,
+                        "name": "ElementaryTypeName",
+                        "src": "511:6:0"
+                      }
+                    ],
+                    "id": 26,
+                    "name": "VariableDeclaration",
+                    "src": "511:6:0"
+                  }
+                ],
+                "id": 27,
+                "name": "ParameterList",
+                "src": "502:16:0"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "!",
+                          "prefix": true,
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "isInitialized",
+                              "referencedDeclaration": 7,
+                              "type": "bool"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "struct IDMS.Student storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 12,
+                                      "type": "mapping(uint256 => struct IDMS.Student storage ref)",
+                                      "value": "StudentIdentity"
+                                    },
+                                    "id": 28,
+                                    "name": "Identifier",
+                                    "src": "527:15:0"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 21,
+                                      "type": "uint256",
+                                      "value": "rollNo"
+                                    },
+                                    "id": 29,
+                                    "name": "Identifier",
+                                    "src": "543:6:0"
+                                  }
+                                ],
+                                "id": 30,
+                                "name": "IndexAccess",
+                                "src": "527:23:0"
+                              }
+                            ],
+                            "id": 31,
+                            "name": "MemberAccess",
+                            "src": "527:37:0"
+                          }
+                        ],
+                        "id": 32,
+                        "name": "UnaryOperation",
+                        "src": "526:38:0"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "arguments": [
+                                    null
+                                  ],
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "isStructConstructorCall": false,
+                                  "lValueRequested": false,
+                                  "names": [
+                                    null
+                                  ],
+                                  "type": "tuple()",
+                                  "type_conversion": false
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": [
+                                        null
+                                      ],
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 108,
+                                      "type": "function () pure",
+                                      "value": "revert"
+                                    },
+                                    "id": 33,
+                                    "name": "Identifier",
+                                    "src": "571:6:0"
+                                  }
+                                ],
+                                "id": 34,
+                                "name": "FunctionCall",
+                                "src": "571:8:0"
+                              }
+                            ],
+                            "id": 35,
+                            "name": "ExpressionStatement",
+                            "src": "571:8:0"
+                          }
+                        ],
+                        "id": 36,
+                        "name": "Block",
+                        "src": "566:18:0"
+                      },
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "functionReturnParameters": 27
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isInlineArray": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "tuple(string storage ref,string storage ref)"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "name",
+                                      "referencedDeclaration": 3,
+                                      "type": "string storage ref"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "isConstant": false,
+                                          "isLValue": true,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "type": "struct IDMS.Student storage ref"
+                                        },
+                                        "children": [
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 12,
+                                              "type": "mapping(uint256 => struct IDMS.Student storage ref)",
+                                              "value": "StudentIdentity"
+                                            },
+                                            "id": 37,
+                                            "name": "Identifier",
+                                            "src": "603:15:0"
+                                          },
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 21,
+                                              "type": "uint256",
+                                              "value": "rollNo"
+                                            },
+                                            "id": 38,
+                                            "name": "Identifier",
+                                            "src": "619:6:0"
+                                          }
+                                        ],
+                                        "id": 39,
+                                        "name": "IndexAccess",
+                                        "src": "603:23:0"
+                                      }
+                                    ],
+                                    "id": 40,
+                                    "name": "MemberAccess",
+                                    "src": "603:28:0"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "GPA",
+                                      "referencedDeclaration": 5,
+                                      "type": "string storage ref"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "isConstant": false,
+                                          "isLValue": true,
+                                          "isPure": false,
+                                          "lValueRequested": false,
+                                          "type": "struct IDMS.Student storage ref"
+                                        },
+                                        "children": [
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 12,
+                                              "type": "mapping(uint256 => struct IDMS.Student storage ref)",
+                                              "value": "StudentIdentity"
+                                            },
+                                            "id": 41,
+                                            "name": "Identifier",
+                                            "src": "633:15:0"
+                                          },
+                                          {
+                                            "attributes": {
+                                              "argumentTypes": null,
+                                              "overloadedDeclarations": [
+                                                null
+                                              ],
+                                              "referencedDeclaration": 21,
+                                              "type": "uint256",
+                                              "value": "rollNo"
+                                            },
+                                            "id": 42,
+                                            "name": "Identifier",
+                                            "src": "649:6:0"
+                                          }
+                                        ],
+                                        "id": 43,
+                                        "name": "IndexAccess",
+                                        "src": "633:23:0"
+                                      }
+                                    ],
+                                    "id": 44,
+                                    "name": "MemberAccess",
+                                    "src": "633:27:0"
+                                  }
+                                ],
+                                "id": 45,
+                                "name": "TupleExpression",
+                                "src": "602:59:0"
+                              }
+                            ],
+                            "id": 46,
+                            "name": "Return",
+                            "src": "595:66:0"
+                          }
+                        ],
+                        "id": 47,
+                        "name": "Block",
+                        "src": "590:76:0"
+                      }
+                    ],
+                    "id": 48,
+                    "name": "IfStatement",
+                    "src": "523:143:0"
+                  }
+                ],
+                "id": 49,
+                "name": "Block",
+                "src": "519:150:0"
+              }
+            ],
+            "id": 50,
+            "name": "FunctionDefinition",
+            "src": "454:215:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "addStudent",
+              "payable": false,
+              "scope": 92,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "rollNo",
+                      "scope": 91,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 51,
+                        "name": "ElementaryTypeName",
+                        "src": "738:4:0"
+                      }
+                    ],
+                    "id": 52,
+                    "name": "VariableDeclaration",
+                    "src": "738:11:0"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "nm",
+                      "scope": 91,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 53,
+                        "name": "ElementaryTypeName",
+                        "src": "751:6:0"
+                      }
+                    ],
+                    "id": 54,
+                    "name": "VariableDeclaration",
+                    "src": "751:9:0"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "gp",
+                      "scope": 91,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "string memory",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string storage pointer"
+                        },
+                        "id": 55,
+                        "name": "ElementaryTypeName",
+                        "src": "762:6:0"
+                      }
+                    ],
+                    "id": 56,
+                    "name": "VariableDeclaration",
+                    "src": "762:9:0"
+                  }
+                ],
+                "id": 57,
+                "name": "ParameterList",
+                "src": "737:35:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 58,
+                "name": "ParameterList",
+                "src": "780:0:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        59
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "std",
+                          "scope": 91,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "struct IDMS.Student storage pointer",
+                          "typeName": null,
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [],
+                        "id": 59,
+                        "name": "VariableDeclaration",
+                        "src": "784:7:0"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "struct IDMS.Student storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 12,
+                              "type": "mapping(uint256 => struct IDMS.Student storage ref)",
+                              "value": "StudentIdentity"
+                            },
+                            "id": 60,
+                            "name": "Identifier",
+                            "src": "794:15:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 52,
+                              "type": "uint256",
+                              "value": "rollNo"
+                            },
+                            "id": 61,
+                            "name": "Identifier",
+                            "src": "810:6:0"
+                          }
+                        ],
+                        "id": 62,
+                        "name": "IndexAccess",
+                        "src": "794:23:0"
+                      }
+                    ],
+                    "id": 63,
+                    "name": "VariableDeclarationStatement",
+                    "src": "784:33:0"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "isInitialized",
+                          "referencedDeclaration": 7,
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 59,
+                              "type": "struct IDMS.Student storage pointer",
+                              "value": "std"
+                            },
+                            "id": 64,
+                            "name": "Identifier",
+                            "src": "824:3:0"
+                          }
+                        ],
+                        "id": 65,
+                        "name": "MemberAccess",
+                        "src": "824:17:0"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "arguments": [
+                                    null
+                                  ],
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "isStructConstructorCall": false,
+                                  "lValueRequested": false,
+                                  "names": [
+                                    null
+                                  ],
+                                  "type": "tuple()",
+                                  "type_conversion": false
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": [
+                                        null
+                                      ],
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 108,
+                                      "type": "function () pure",
+                                      "value": "revert"
+                                    },
+                                    "id": 66,
+                                    "name": "Identifier",
+                                    "src": "848:6:0"
+                                  }
+                                ],
+                                "id": 67,
+                                "name": "FunctionCall",
+                                "src": "848:8:0"
+                              }
+                            ],
+                            "id": 68,
+                            "name": "ExpressionStatement",
+                            "src": "848:8:0"
+                          }
+                        ],
+                        "id": 69,
+                        "name": "Block",
+                        "src": "843:18:0"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "operator": "=",
+                                  "type": "string storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": true,
+                                      "member_name": "name",
+                                      "referencedDeclaration": 3,
+                                      "type": "string storage ref"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 59,
+                                          "type": "struct IDMS.Student storage pointer",
+                                          "value": "std"
+                                        },
+                                        "id": 70,
+                                        "name": "Identifier",
+                                        "src": "872:3:0"
+                                      }
+                                    ],
+                                    "id": 72,
+                                    "name": "MemberAccess",
+                                    "src": "872:8:0"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 54,
+                                      "type": "string memory",
+                                      "value": "nm"
+                                    },
+                                    "id": 73,
+                                    "name": "Identifier",
+                                    "src": "883:2:0"
+                                  }
+                                ],
+                                "id": 74,
+                                "name": "Assignment",
+                                "src": "872:13:0"
+                              }
+                            ],
+                            "id": 75,
+                            "name": "ExpressionStatement",
+                            "src": "872:13:0"
+                          },
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "operator": "=",
+                                  "type": "string storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": true,
+                                      "member_name": "GPA",
+                                      "referencedDeclaration": 5,
+                                      "type": "string storage ref"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 59,
+                                          "type": "struct IDMS.Student storage pointer",
+                                          "value": "std"
+                                        },
+                                        "id": 76,
+                                        "name": "Identifier",
+                                        "src": "890:3:0"
+                                      }
+                                    ],
+                                    "id": 78,
+                                    "name": "MemberAccess",
+                                    "src": "890:7:0"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 56,
+                                      "type": "string memory",
+                                      "value": "gp"
+                                    },
+                                    "id": 79,
+                                    "name": "Identifier",
+                                    "src": "900:2:0"
+                                  }
+                                ],
+                                "id": 80,
+                                "name": "Assignment",
+                                "src": "890:12:0"
+                              }
+                            ],
+                            "id": 81,
+                            "name": "ExpressionStatement",
+                            "src": "890:12:0"
+                          },
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "operator": "=",
+                                  "type": "bool"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "isConstant": false,
+                                      "isLValue": true,
+                                      "isPure": false,
+                                      "lValueRequested": true,
+                                      "member_name": "isInitialized",
+                                      "referencedDeclaration": 7,
+                                      "type": "bool"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 59,
+                                          "type": "struct IDMS.Student storage pointer",
+                                          "value": "std"
+                                        },
+                                        "id": 82,
+                                        "name": "Identifier",
+                                        "src": "907:3:0"
+                                      }
+                                    ],
+                                    "id": 84,
+                                    "name": "MemberAccess",
+                                    "src": "907:17:0"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "hexvalue": "74727565",
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": true,
+                                      "lValueRequested": false,
+                                      "subdenomination": null,
+                                      "token": "bool",
+                                      "type": "bool",
+                                      "value": "true"
+                                    },
+                                    "id": 85,
+                                    "name": "Literal",
+                                    "src": "927:4:0"
+                                  }
+                                ],
+                                "id": 86,
+                                "name": "Assignment",
+                                "src": "907:24:0"
+                              }
+                            ],
+                            "id": 87,
+                            "name": "ExpressionStatement",
+                            "src": "907:24:0"
+                          }
+                        ],
+                        "id": 88,
+                        "name": "Block",
+                        "src": "867:69:0"
+                      }
+                    ],
+                    "id": 89,
+                    "name": "IfStatement",
+                    "src": "821:115:0"
+                  }
+                ],
+                "id": 90,
+                "name": "Block",
+                "src": "780:159:0"
+              }
+            ],
+            "id": 91,
+            "name": "FunctionDefinition",
+            "src": "718:221:0"
+          }
+        ],
+        "id": 92,
+        "name": "ContractDefinition",
+        "src": "25:916:0"
+      }
+    ],
+    "id": 93,
+    "name": "SourceUnit",
+    "src": "0:941:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-01-02T20:00:49.603Z"
+}
