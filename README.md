@@ -21,7 +21,7 @@ $ npm run dev
 Above script will open a console for truffle, then
 ```sh
 truffle(develop)> IDMS.new().then(res => sc = res)
-truffle(develop)> sc.addStudent.call(1, 'abc', '6.5')
+truffle(develop)> sc.addStudent(1, 'abc', '6.5')
 truffle(develop)> sc.getStudent.call(1)
 [ 'abc', '6.5' ]
 ```
