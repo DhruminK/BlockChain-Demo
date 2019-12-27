@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "init": "truffle init",
-    "compile" : "truffle compile",
-    "dev" : "npm run compile && truffle develop"
+    "compile": "truffle compile",
+    "dev": "npm run compile && truffle develop"
   },
   "keywords": [],
   "author": "Dhrumin Khatri <dhurminkhatri@yahoo.com>",
